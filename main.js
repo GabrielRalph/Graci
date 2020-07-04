@@ -21,8 +21,8 @@ window.onload = () => {
       let collection = collections[i]
       collections_el.innerHTML += `<h3>${collection.title}</h3>`
       title_el.style.setProperty('margin', '0')
-      title_el.style.setProperty('font-size', '100px')
-      title_el.style.setProperty('line-height', '120px')
+      title_el.style.setProperty('font-size', '8vw')
+      title_el.style.setProperty('line-height', '9vw')
     }
   })
 
